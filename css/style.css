@@ -1,0 +1,182 @@
+*{
+
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: arial, "Times New Roman";
+}
+
+
+
+nav{
+	position: absolute;
+	width: 100%;
+}
+
+nav > img {
+	margin-top: 20px;
+	margin-left: 20px;
+	display: block;
+	float: left;
+	width:125px;
+	height:23px; 
+}
+
+nav > ul{
+	margin-left:400px;
+	padding-top: 20px;
+}
+
+nav ul li{
+	display: block;
+	float: left;
+	padding-right: 20px;
+}
+
+nav ul a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+}
+
+nav ul a:hover{
+	color: grey;
+}
+#rightmenu ul li{
+	display:block;
+	float: right;
+	
+}
+
+#rightmenu > ul>a >li>img {
+	
+
+	display: flex;
+	float: right;
+	width:25px;
+	height:23px; 
+	padding-left: 60px;
+}
+
+.car1{
+	clear:both;
+	margin: 0 auto;
+	background: url("../images/MS-Social.jpg") no-repeat center center/cover;
+	height: 850px;
+	width: 100%;
+
+}
+
+.car2{
+	clear:both;
+	margin: 0 auto;
+	background: url("../images/Desktop-ModelY.jpg") no-repeat center center/cover;
+	height: 850px;
+	width: 100%;
+
+}
+
+.car3{
+	clear:both;
+	margin: 0 auto;
+	background: url("../images/lhd-model-3-social.png") no-repeat center center/cover;
+	height: 850px;
+	width: 100%;
+
+}
+
+.car4{
+	clear:both;
+	margin: 0 auto;
+	background: url("../images/MX-Hero-Desktop.jpg") no-repeat center center/cover;
+	height: 850px;
+	width: 100%;
+
+}
+
+.house1{
+	clear:both;
+	margin: 0 auto;
+	background: url("../images/D_solarpanels_hero_2880x1800_ENC.jpg") no-repeat center center/cover;
+	height: 850px;
+	width: 100%;
+
+}
+.house2{
+	clear:both;
+	margin: 0 auto;
+	background: url("../images/download.jpg") no-repeat center center/cover;
+	height: 850px;
+	width: 100%;
+
+}
+
+.accessories{
+	clear:both;
+	margin: 0 auto;
+	background: url("../images/1457768-00-F_0.jpg") no-repeat center center/cover;
+	height: 950px;
+	width: 100%;
+	background-position: 0px -100px;
+
+}
+
+
+
+article h1{
+	padding-top:90px;
+	text-align:center;
+	font-size: 2em;
+	margin-left: -55px;
+}
+
+article h4{
+	padding-top: 10px;
+	margin-left: -55px;
+	font-size: 1em;
+	text-align:center;
+}
+
+.transbutton{
+	display:block;
+	border-radius: 20px;
+font-size: 0.8em;
+	background-color: white;
+	float:left;
+	color:black;
+	width: 210px;
+	height: 40px;
+	line-height: 40px;
+	margin-right:100px;
+	text-transform:uppercase;
+	text-align: center;
+	margin-top: 530px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.transbutton:hover{
+	background-color: black;
+	color: white;
+}
+.button-group a{
+	color: white;
+}
+.button-group a .active{
+	color: white;
+	background-color: grey;
+}
+.button-group{
+	display: block;
+	margin: 0 auto;
+	width: 640px;
+	height: 200px;
+	margin-top: 40px;
+
+}
+
+
+
